@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfellTest.Web", "InterfellTest\InterfellTest.Web.csproj", "{D353941F-AEA2-4359-B1E5-6A797AE02012}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F} = {3759B71B-693B-48B1-B86A-F3268A5D2C5F}
+		{AE888F5C-9B06-436F-88C1-BDD780B985AF} = {AE888F5C-9B06-436F-88C1-BDD780B985AF}
+		{BAE147BD-D121-4155-8BB2-32D556BF8644} = {BAE147BD-D121-4155-8BB2-32D556BF8644}
+		{81D9C4FF-327C-420C-80A1-ACC3B082CEEE} = {81D9C4FF-327C-420C-80A1-ACC3B082CEEE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfellTest.Domain", "Domain\InterfellTest.Domain.csproj", "{81D9C4FF-327C-420C-80A1-ACC3B082CEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfellTest.Business", "Business\InterfellTest.Business.csproj", "{AE888F5C-9B06-436F-88C1-BDD780B985AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F} = {3759B71B-693B-48B1-B86A-F3268A5D2C5F}
+		{BAE147BD-D121-4155-8BB2-32D556BF8644} = {BAE147BD-D121-4155-8BB2-32D556BF8644}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfellTest.Repository", "Repository\InterfellTest.Repository.csproj", "{3759B71B-693B-48B1-B86A-F3268A5D2C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfellTest.DTO", "DTO\InterfellTest.DTO.csproj", "{BAE147BD-D121-4155-8BB2-32D556BF8644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D353941F-AEA2-4359-B1E5-6A797AE02012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D353941F-AEA2-4359-B1E5-6A797AE02012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D353941F-AEA2-4359-B1E5-6A797AE02012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D353941F-AEA2-4359-B1E5-6A797AE02012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D9C4FF-327C-420C-80A1-ACC3B082CEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D9C4FF-327C-420C-80A1-ACC3B082CEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D9C4FF-327C-420C-80A1-ACC3B082CEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D9C4FF-327C-420C-80A1-ACC3B082CEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE888F5C-9B06-436F-88C1-BDD780B985AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE888F5C-9B06-436F-88C1-BDD780B985AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE888F5C-9B06-436F-88C1-BDD780B985AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE888F5C-9B06-436F-88C1-BDD780B985AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3759B71B-693B-48B1-B86A-F3268A5D2C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE147BD-D121-4155-8BB2-32D556BF8644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE147BD-D121-4155-8BB2-32D556BF8644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE147BD-D121-4155-8BB2-32D556BF8644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE147BD-D121-4155-8BB2-32D556BF8644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
